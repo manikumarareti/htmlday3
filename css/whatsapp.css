@@ -1,0 +1,136 @@
+.body {
+
+  position: relative;
+  border: 2px solid green;
+  height: 500px;
+  width: 350px;
+  bottom: 3px;
+  background-color: beige;
+  overflow-y: scroll;
+}
+.header {
+  position: relative;
+  border: 2px solid rgb(18, 80, 18);
+  height: 50px;
+  width: 350px;
+  background-color: gray;
+  border-top-right-radius: 3%;
+  border-top-left-radius: 3%;
+}
+img[alt="blank"] {
+  position: absolute;
+  top: 5px;
+  left: 1px;
+  height: 40px;
+  border-radius: 100%;
+}
+h3 {
+  position: absolute;
+  top: -10px;
+  left: 15%;
+}
+h6 {
+  position: absolute;
+  top: 10px;
+  left: 15%;
+}
+img[alt="icon1"] {
+  position: absolute;
+  top: 20px;
+  left: 250px;
+  height: 25px;
+  border-radius: 1px;
+}
+img[alt="icon2"] {
+  position: absolute;
+  top: 23px;
+  left: 288px;
+  height: 20px;
+  border-radius: 1px;
+}
+img[alt="icon3"] {
+  position: absolute;
+  top: 20px;
+  left: 312px;
+  height: 25px;
+  border-radius: 1px;
+}
+.chat_box {
+  position: absolute;
+  z-index: 10;
+  top: 518px;
+  left: 10px;
+}
+.msg{
+    
+  border: none;
+  padding: 10px;
+  height: 13px;
+  width: 180px;
+  border-radius: 4px;
+  margin-right: 1px;
+  margin-left: -4px;
+}
+.send-button {
+  position: absolute;
+  background-color: rgb(20, 72, 95); /* Send button color */
+  border: none;
+  color: white;
+  padding: 12px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 59.7px;
+  height: 40px;
+  left: 290px;
+  top: 3px;
+}
+.emo {
+  position: relative;
+  background-color: white;
+  height:30px;
+  width: 30px;
+  top: 10px;
+}
+.attach {
+  position: absolute;
+  background-color: white;
+  height: 30px;
+  bottom: 2px;
+  left: 230px;
+}
+.mic {
+  position: absolute;
+ background-color: white;
+  height: 30px;
+  bottom: 2px;
+  left: 260px;
+}
+.in_msg{
+text-align: center;
+}
+
+.sender{
+    position: relative;
+    text-align: right;
+      color: white;
+      background-color: rgb(101, 181, 101); /* Sent message color */
+      border-radius: 5px;
+      border-bottom-left-radius: 20px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      padding: 8px;
+      width: 100px;
+      left: 213px;
+
+}
+.rec{
+    text-align: left;
+      background-color: grey; /* Received message color */
+      border-radius: 5px;
+      padding: 8px;
+      border-bottom-right-radius: 20px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      width: 100px;
+      
+}
